@@ -13,7 +13,7 @@ class TaskViewSet(viewsets.ModelViewSet):
    serialzer_class = TaskSerializer
    permission_classes = [IsAuthenticated, IsOwnerPermission]
    filter_backends = [DjangoFilterBackend, SearchFilter]
-   filterset_fields = ['completed', 'due_date']
+   filterset_fields = ['completed']
    search_fields = ['title', 'description']
    
    # Ensure users can only access their own tasks

@@ -12,6 +12,7 @@ PyJWT==2.10.1
 python-decouple==3.8
 pytz==2025.2
 PyYAML==6.0.3
+rest-framework-simplejwt==0.0.2
 sqlparse==0.5.3
 uritemplate==4.2.0
 whitenoise==6.11.0
